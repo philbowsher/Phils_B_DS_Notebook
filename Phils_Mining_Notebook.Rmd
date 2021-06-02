@@ -28,6 +28,7 @@ mining2 <- mining %>%
 3. ggplot2 data viz
 
 ```{r}
+library(ggplot2)
 p <- ggplot(mining2) +
  aes(x = PRO, y = POW) +
  geom_point(size = 1L, colour = "#0c4c8a") +
