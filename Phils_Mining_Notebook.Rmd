@@ -6,6 +6,7 @@ output: html_notebook
 1. Import data procedure
 
 ```{r}
+library(tidyverse)
 library(haven)
 mining <- read_sas("http://www.principlesofeconometrics.com/sas/mining.sas7bdat", 
     NULL)
